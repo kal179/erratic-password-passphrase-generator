@@ -1,0 +1,98 @@
+
+
+<html>
+    <head> 
+        <title>
+            Erratic Passwd
+        </title>
+    </head>
+    
+    <body>
+        
+        <div>
+            <!--
+                Introductory paragraph, and video
+                to explain importance of strong passwords
+            -->
+			<h1> Why to use strong passwords or should i say <quote>pass-phrases</quote>? </h1>
+             <p> 
+                <!-- Intro. Para. -->
+                 Hey ppl, <br/>
+                 Now-a-days hacking has become part of internet culture <br/>
+                 While there are some who use this skill for good, <br/>
+                 there is other side to the coin too! Some try to steal <br/>
+                 private data for their gain and your pain, and main reason <br/>
+                 the're able to break into your data/info. is due to weak passwords. <br/>
+                 It is very easy to crack a password if it has very less variation <br/>
+                 in it's characters. <br/>
+             </p>
+            
+            <p> Hackers mostly use following techniques<br/> to crack your password: </p>
+            <ul>
+                    <li> <a href="https://en.wikipedia.org/wiki/Brute-force_attack">brute force</a> </li>
+                    <li> <a href="https://en.wikipedia.org/wiki/Dictionary_attack">dictionary attack</a> </li>
+                    <li> <a href="https://en.wikipedia.org/wiki/Rainbow_table">rainbow table attack</a> </li>
+                    
+            </ul>
+            <p>This way your password just pops open like a soda can. If it is weak.<p/>
+            <p> Only Way to avoid is use a strong password which should be mixture of <br/> 
+                Lower-case, upper-case alphabets; Numbers; Special characters(punctuation). <br/>
+                And make sure that site you share your data with should use secure channel to <br/>
+                communicate with your computer like (ssl, ssh, https, etc).
+            </p>
+            
+             <p>
+                <!-- Intro. Vid. -->
+                 <strong>How about a quick video to convince you:</strong> <br/>
+                <iframe width="700" height="400" src="https://www.youtube.com/embed/aEmF3Iylvr4" frameborder="0" allow="encrypted-media; controls; allowfullscreen"></iframe>
+            </p>
+        </div>
+        
+        
+        <div>
+            <!-- 
+                Random Password Generator/PassPhrase Passwd Generator Section
+                Main Use Section
+            -->
+            <h2> Password from Pass-Phrase <br/>Just for you</h2>
+            <!--
+                Passphrase for password
+            -->
+            <form role="form", action="passphrase_gen.php", method="post"> 
+                <input type="text" name="passphrase" placeholder="Phrase you like password"/>
+                <br/>
+                <input type="checkbox" name="include_nums_passphrase" > Include numbers(0-9) <br/>
+                <input type="checkbox" name="include_punctuation_passphrase" > Include Special charcters(e.g @!#*&~)<br/>
+                <input type="submit"/>
+            </form>
+
+
+			<h2> Random Password Generator <br/>Just for you</h2>
+			<!--
+				Length for password
+			-->
+			<form role="form", action="passwd_gen.php", method="post"> 
+				<input type="number" name="length_of_passwd" placeholder="Length for your password"/>
+				<br/>
+				<input type="checkbox" name="include_nums" > Include numbers(0-9) <br/>
+				<input type="checkbox" name="include_punctuation" > Include Special charcters(e.g @!#*&~)<br/>
+				<input type="submit"/>
+			</form>
+        
+			<!--
+				ADD PASSWORD GENERATOR FROM GIVEN PASS_PHRASE
+				FOR REMEMBERING PASSWORD
+				DATE: 24, time 1:20am, Saturday
+			-->
+			
+        </div>
+    
+        <div>
+            <!--
+                End remarks and other misc. stuff
+            -->
+        
+        </div>
+        
+    </body>
+</html>
