@@ -24,4 +24,5 @@ Password generation on browser itself is still to be added!
 <br/>
 <strong>I'd love to hear suggestions, reviews, edits, etc! <br/>
 So feel free to do that!</strong> <br/>
+
 contact: kalpaktake@gmail.com
